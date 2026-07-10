@@ -1,0 +1,8 @@
+name = "security-intel-mcp"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+
+# Secrets (set via dashboard or `wrangler secret put`):
+#   ABUSEIPDB_KEY    — enables ip_reputation
+#   URLHAUS_AUTH_KEY — enables url_check
+#   SERVER_API_KEY   — optional bearer-token gate
