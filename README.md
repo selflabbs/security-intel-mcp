@@ -12,6 +12,7 @@ Agents make security-relevant decisions constantly — installing packages, foll
 | `package_vulnerabilities` | Known vulns for any package/version across npm, PyPI, Go, Maven, crates.io, RubyGems + more | OSV.dev |
 | `url_check` | Is this URL a known malware/phishing distribution site? | URLhaus (abuse.ch) |
 | `ip_reputation` | Abuse confidence score, report history, ISP, Tor status for any IP | AbuseIPDB |
+| `audit_dependencies` | Paste a whole package.json / requirements.txt / go.mod and get one consolidated vulnerability report across every dependency | OSV.dev (batch) |
 
 ## Quick start (hosted — recommended)
 
