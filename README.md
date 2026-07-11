@@ -56,7 +56,23 @@ claude mcp add --transport http security-intel https://mcp.selflabbs.com/mcp
 
 ## Pricing
 
-Hosted free tier: fair-use. Higher-volume plans: see [selflabbs.com](https://selflabbs.com).
+The hosted endpoint is **freemium**:
+
+- **Free** — every tool works, results capped at 10 items per call. No key required.
+- **Builder — $19/mo** — uncapped results, 5,000 tool calls/mo, priority endpoint.
+- **Team — $49/mo** — uncapped results, 25,000 tool calls/mo, usage dashboard.
+
+**[Subscribe →](https://buy.polar.sh/polar_cl_FHUG28jft1HVLlBa1LtTco5bY5mT8yuY4uC6P2ImBAT)** — one subscription unlocks Pro on every SelfLabbs server.
+
+### Using your Pro key
+
+After subscribing you receive a license key beginning with `SELFLABBS-`. Pass it as a Bearer token and the free-tier caps are removed:
+
+```bash
+claude mcp add --transport http --header "Authorization: Bearer SELFLABBS-XXXX-XXXX" security-intel https://security-intel-mcp.greenfield1775.workers.dev/mcp
+```
+
+The key is validated against Polar on each request (cached briefly). Cancel anytime — access reverts to the free tier automatically.
 
 ## License
 
