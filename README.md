@@ -70,7 +70,7 @@ The hosted endpoint is **freemium**:
 After subscribing you receive a license key beginning with `SELFLABBS-`. Pass it as a Bearer token and the free-tier caps are removed:
 
 ```bash
-claude mcp add --transport http --header "Authorization: Bearer SELFLABBS-XXXX-XXXX" security-intel https://security-intel-mcp.greenfield1775.workers.dev/mcp
+claude mcp add --transport http --header "Authorization: Bearer SELFLABBS-XXXX-XXXX" security-intel https://security.selflabbs.com/mcp
 ```
 
 The key is validated against Polar on each request (cached briefly). Cancel anytime — access reverts to the free tier automatically.
