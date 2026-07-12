@@ -63,7 +63,7 @@ The hosted endpoint is **freemium**:
 - **Builder — $19/mo** — uncapped results, 5,000 tool calls/mo, priority endpoint.
 - **Team — $49/mo** — uncapped results, 25,000 tool calls/mo, usage dashboard.
 
-**[Subscribe →](https://buy.polar.sh/polar_cl_FHUG28jft1HVLlBa1LtTco5bY5mT8yuY4uC6P2ImBAT)** — one subscription unlocks Pro on every SelfLabbs server.
+**[Subscribe →](https://buy.polar.sh/polar_cl_Q9y3qLrNbtsssN3w5m8SK56oNcruwrmxLEPnd34oAZf)** — one subscription unlocks Pro on every SelfLabbs server.
 
 ### Using your Pro key
 
